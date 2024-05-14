@@ -33,9 +33,9 @@ def yanit(ses):
         konusma("Hoş Geldin")
         print("Sesli Asistan Aktif")
         if "merhaba" in ses:
-            konusma("Sana da merhaba dostum")
+            konusma("Sana da Merhaba!")
         if "kapat" in ses:
-            konusma("Çıkış yapılıyor")
+            konusma("Çıkış yapılıyor...")
             quit()
 
 print("Başlatıldı...")
